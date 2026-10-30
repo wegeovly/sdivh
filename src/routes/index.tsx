@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Shield, Sparkles, Leaf, Mountain, HeartHandshake, CheckCircle2 } from "lucide-react";
-import heroImg from "@/assets/home.jpeg.asset.json";
+import heroImg from "@/assets/herochildren.jpeg";
 import { SiteLayout } from "@/components/site/SiteLayout";
 import { trips } from "@/lib/site-data";
 
@@ -67,7 +67,7 @@ function HomePage() {
             <div className="absolute -bottom-8 -right-8 h-40 w-40 rounded-full bg-lavender/60 blur-2xl" aria-hidden />
             <div className="relative h-full overflow-hidden rounded-3xl border border-border bg-card shadow-card">
               <img
-                src={heroImg.url}
+                src={heroImg}
                 alt="Five smiling children in KIDENTURE camp t-shirts at a tented campsite"
                 width={1536}
                 height={1024}

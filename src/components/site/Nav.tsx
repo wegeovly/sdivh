@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { programLinks } from "@/lib/programs";
-import logoAsset from "@/assets/kidenture-logo.png.asset.json";
+import logoAsset from "@/assets/KIDENTURE.png";
 
 const links = [
   { to: "/about", label: "About" },
@@ -28,7 +28,7 @@ export function Nav() {
     <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link to="/" className="relative inline-flex" aria-label="KIDENTURE home">
-          <img src={logoAsset.url} alt="KIDENTURE logo" className="h-10 w-auto" width={118} height={40} />
+          <img src={logoAsset} alt="KIDENTURE logo" className="h-10 w-auto" width={118} height={40} />
           <span aria-hidden="true" className="pointer-events-none absolute select-none text-[0.5rem] font-semibold leading-none text-foreground" style={{ left: "95%", top: "10%" }}>™</span>
         </Link>
 

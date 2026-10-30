@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import logoAsset from "@/assets/kidenture-logo.png.asset.json";
+import logoAsset from "@/assets/KIDENTURE.png";
 
 const cols = [
   {
@@ -28,7 +28,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:grid-cols-2 sm:px-6 lg:grid-cols-[2fr_1fr_1fr_1.5fr] lg:px-8">
         <div>
           <Link to="/" className="relative inline-flex" aria-label="KIDENTURE home">
-            <img src={logoAsset.url} alt="KIDENTURE logo" className="h-12 w-auto" width={141} height={48} />
+            <img src={logoAsset} alt="KIDENTURE logo" className="h-12 w-auto" width={141} height={48} />
             <span aria-hidden="true" className="pointer-events-none absolute select-none text-[0.5rem] font-semibold leading-none text-foreground" style={{ left: "95%", top: "10%" }}>™</span>
           </Link>
           <p className="mt-4 max-w-sm text-sm text-muted-foreground">
