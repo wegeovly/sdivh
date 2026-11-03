@@ -78,7 +78,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "KIDENTURE partners with schools to offer curated 1 & 2-day learning journeys for children ages 4–12, blending education, adventure and spirituality.",
+          "KIDENTURE partners with schools to offer curated learning journeys for children ages 4–12, blending education, adventure and spirituality.",
       },
       { name: "author", content: "KIDENTURE" },
       { property: "og:site_name", content: "KIDENTURE" },

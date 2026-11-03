@@ -22,7 +22,7 @@ function AboutPage() {
       <PageHeader
         eyebrow="About KIDENTURE"
         title="Built by educators. Trusted by schools. Loved by children."
-        description="We design 1 & 2-day journeys that go beyond the classroom — combining inquiry, adventure and reflection — in deep partnership with India's schools."
+        description="We design various types of learning that go beyond the classroom — combining inquiry, adventure and reflection — in deep partnership with India's schools."
       />
 
       <section className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">

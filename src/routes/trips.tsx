@@ -7,11 +7,11 @@ export const Route = createFileRoute("/trips")({
   head: () => ({
     meta: [
       { title: "Trips — Curated learning journeys for ages 4–12" },
-      { name: "description", content: "Explore KIDENTURE's 1 & 2-day journeys. Booked through your child's school." },
+      { name: "description", content: "Explore KIDENTURE's curated learning journeys. Booked through your child's school." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { property: "og:title", content: "KIDENTURE Trips" },
-      { property: "og:description", content: "Curated 1 & 2-day learning journeys for children ages 4–12." },
+      { property: "og:description", content: "Curated learning journeys for children ages 4–12." },
     ],
   }),
   component: TripsPage,
