@@ -40,7 +40,7 @@ export function TripCard({
           className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
         />
       </div>
-      <div className="flex flex-1 flex-col p-6">
+      <div className="flex flex-1 flex-col p-5">
         <div className="flex h-7 flex-wrap gap-2 overflow-hidden">
           {tags.map((t) => (
             <span key={t} className="rounded-full bg-secondary px-2.5 py-0.5 text-xs font-medium">
@@ -50,7 +50,7 @@ export function TripCard({
         </div>
         <h2 className="mt-3 min-h-14 font-display text-xl leading-7 line-clamp-2">{title}</h2>
         <p className="mt-2 min-h-15 text-sm leading-5 text-muted-foreground line-clamp-3">{description}</p>
-        <dl className="mb-5 mt-5 grid gap-2 text-sm text-muted-foreground">
+        <dl className="mt-4 grid gap-3 border-t border-border pt-4 text-sm text-muted-foreground">
           {rows.map((r) => (
             <div key={r.text} className={r.rowClassName ?? "flex items-center gap-2"}>
               {r.icon}
@@ -58,7 +58,7 @@ export function TripCard({
             </div>
           ))}
         </dl>
-        <div className="mt-auto flex items-center justify-between border-t border-border pt-4">
+        <div className="mt-auto flex items-center justify-between pt-4">
           <Button
             asChild
             variant="outline"

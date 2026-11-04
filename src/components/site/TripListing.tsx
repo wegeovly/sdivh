@@ -18,7 +18,7 @@ export function TripListing({ items }: { items: Trip[] }) {
               {
                 icon: <MapPin className="mt-0.5 h-4 w-4 shrink-0" />,
                 text: t.destination,
-                rowClassName: "flex min-h-10 items-start gap-2",
+                rowClassName: "flex items-start gap-2",
               },
               { icon: <Users className="h-4 w-4 shrink-0" />, text: `${t.ageGroup} · max 40` },
               {
